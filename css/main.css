@@ -1,0 +1,61 @@
+/* Уменьшение максимальной ширины контейнера */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 940px;
+    }
+  }
+
+  /* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  } */
+
+  /* header */
+.header {
+    background-image: url(/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+.header-content {
+    text-align: center;
+    padding-top: 180px;
+}
+.btn-header {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 0px;
+    margin-bottom: 140px;
+    margin-top: 100px;
+    background-color: transparent;
+}
+.header-icon {
+    padding: 0 5px 40px 5px;
+}
+.logo {
+    
+}
+
+/* section-1 */
+.section-1 {
+    background-color: #f8f2e4;
+}
+.section-1__row {
+    padding: 50px 0;
+}
+.section-1__column h4 {
+    padding-top: 50px;
+}
+
+/* section-2 */
+.section-2__title {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.section-2__circle p {
+    padding-top: 20px;
+    max-width: 237px;
+}
