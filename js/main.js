@@ -5,16 +5,19 @@ $(document).ready(function () {
 		loop: true,
 		margin: 200,
 		responsive: {
-			0: {
+			300: {
 				items: 1,
+				margin: 0,
 			},
 			600: {
 				items: 1,
-				margin: 50,
+				margin: 100,
+				center: false,
 			},
 			900: {
 				items: 2,
 				margin: 200,
+				// center: false
 			},
 		},
 	}),
@@ -29,24 +32,26 @@ $(document).ready(function () {
 				},
 				600: {
 					items: 1,
-					margin: 50,
+					margin: 100,
+					center: false,
 				},
 				900: {
 					items: 2,
 					margin: 200,
+					// center: false
 				},
 			},
 		}),
 		$("#slider-3").owlCarousel({
 			items: 1,
 			loop: true,
-			margin: 50,
+			// margin: 50,
 			autoplay: true
 		}),
 		$("#slider-4").owlCarousel({
 			items: 1,
 			loop: true,
-			margin: 50,
+			// margin: 50,
 			autoplay: true
 		}),
 		$("#slider-5").owlCarousel({

@@ -69,7 +69,7 @@ body {
     height: 6px;
     background: url(/img/figure.png) no-repeat;
     position: relative;
-    left: 44%;
+    left: calc(50% - 59px);
     top: 20px;
     /* bottom: 45px; */
 }
@@ -134,9 +134,11 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-
+.header__icon-row {
+    margin-bottom: 40px;
+}
 .header-icon {
-    padding: 0 5px 40px 5px;
+    padding: 0 5px 0px 5px;
 }
 
 .header__info {
@@ -240,6 +242,7 @@ body {
 
 .slider .slider__item img {
     height: 480px;
+    object-fit: cover; /* добавил это свойство*/
 }
 
 .center img {}
@@ -537,6 +540,11 @@ body {
 
 .section-9__item {}
 
+.section-9__item + span {
+    margin: 15px auto;
+    display: block;
+}
+
 /* не разобрался как выровнять текст по всей ширине колонок.  */
 
 .section-9__item-row span {}
@@ -565,7 +573,7 @@ body {
 }
 
 .section-10__item {
-    padding: 10px 0px;
+    padding: 25px 42px 25px 0px;
 }
 
 .section-10__text {}
@@ -577,8 +585,9 @@ body {
 .section-10__price {
     font-weight: 700;
     color: #e28234;
-    text-align: right;
-    padding-left: 52px;
+    /* text-align: right; */
+    /* padding-left: 52px; */
+    display: block;
 }
 
 .section-10__item-special {
@@ -649,6 +658,10 @@ body {
 }
 
 .section-11__item {}
+.section-11__item > span {
+    display: block;
+    margin-bottom: 20px;
+}
 
 .section-11__item-text {
     font-size: 14px;
@@ -720,10 +733,12 @@ footer {
     padding: 12px 0;
 }
 
-.footer__logo img {}
+.footer__logo {
+ 
+}
 
 .footer__logo-text {
-    margin-left: 39px;
+   
 }
 
 .footer__logo-text a {
