@@ -41,15 +41,25 @@ $(document).ready(function () {
 			items: 1,
 			loop: true,
 			margin: 50,
-        }),
-        $("#slider-4").owlCarousel({
+			autoplay: true
+		}),
+		$("#slider-4").owlCarousel({
 			items: 1,
 			loop: true,
 			margin: 50,
-        }),
-        $("#slider-5").owlCarousel({
+			autoplay: true
+		}),
+		$("#slider-5").owlCarousel({
 			items: 1,
 			loop: true,
 			margin: 50,
+			nav: true,
+			navText: [
+				"<img src='img/slider_images/slider-5-left-arrow.png'>",
+				"<img src='img/slider_images/slider-5-right-arrow.png'>",
+			],
+			dots: true,
+			lazyLoad: true,
+			autoplay: true
 		});
 });
