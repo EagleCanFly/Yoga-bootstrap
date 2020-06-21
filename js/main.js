@@ -14,7 +14,7 @@ $(document).ready(function () {
 				margin: 100,
 				center: false,
 			},
-			900: {
+			1000: {
 				items: 2,
 				margin: 200,
 				// center: false
@@ -64,7 +64,6 @@ $(document).ready(function () {
 				"<img src='img/slider_images/slider-5-right-arrow.png'>",
 			],
 			dots: true,
-			lazyLoad: true,
 			autoplay: true
 		});
 });

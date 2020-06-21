@@ -134,9 +134,11 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .header__icon-row {
     margin-bottom: 40px;
 }
+
 .header-icon {
     padding: 0 5px 0px 5px;
 }
@@ -242,7 +244,8 @@ body {
 
 .slider .slider__item img {
     height: 480px;
-    object-fit: cover; /* добавил это свойство*/
+    object-fit: cover;
+    /* добавил это свойство*/
 }
 
 .center img {}
@@ -460,7 +463,7 @@ body {
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     bottom: 10%;
-    left: 50%;
+    left: calc(50% - 36px);
 }
 
 .section-7 .owl-theme .owl-dots .owl-dot {
@@ -538,9 +541,11 @@ body {
 
 .section-9__subtitle {}
 
-.section-9__item {}
+.section-9__item {
+    
+}
 
-.section-9__item + span {
+.section-9__item+span {
     margin: 15px auto;
     display: block;
 }
@@ -569,11 +574,11 @@ body {
     background-color: #fff;
     font-size: 21px;
     font-weight: 300;
-    padding: 20px 0px 20px 30px;
+    padding: 20px 0px 20px 0px;
 }
 
 .section-10__item {
-    padding: 25px 42px 25px 0px;
+    padding: 25px 0px 25px 0px;
 }
 
 .section-10__text {}
@@ -594,12 +599,14 @@ body {
     background: #f4e1b6;
     font-size: 20px;
     font-weight: 500;
-    padding: 25px 42px 25px 0px;
+    padding: 25px 0px 25px 0px;
 }
 
 .section-10__btn {
     font-size: 12px;
+    line-height: 12px;
     font-weight: 700;
+    padding: 14px 42px;
 }
 
 .section-10__subtitle {
@@ -658,7 +665,8 @@ body {
 }
 
 .section-11__item {}
-.section-11__item > span {
+
+.section-11__item>span {
     display: block;
     margin-bottom: 20px;
 }
@@ -724,22 +732,21 @@ footer {
     font-size: 12px;
     font-weight: 400;
 }
+.footer__row {
+    padding: 25px 0 12px 0;
+}
 
 .footer__column {
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 
 .footer__logo {
-    padding: 12px 0;
+    /* padding: 12px 0; */
 }
 
-.footer__logo {
- 
-}
+.footer__logo {}
 
-.footer__logo-text {
-   
-}
+.footer__logo-text {}
 
 .footer__logo-text a {
     color: #fff;
